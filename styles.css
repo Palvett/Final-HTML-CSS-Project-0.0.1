@@ -14,7 +14,7 @@ body {
 
 .blue-bg {
   position: relative;
-  background: rgb(4, 56, 115);
+  background: rgb(4 56 115);
   color: white;
   padding: 64px 24px;
   overflow: visible;
@@ -35,7 +35,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-top: 12px;
-  background-color: rgb(4, 56, 115);
+  background-color: rgb(4 56 115);
 }
 
 .logo {
@@ -52,7 +52,7 @@ body {
 .logo-text {
   font-weight: bold;
   font-size: 24px;
-  color: rgb(255, 255, 255);
+  color: rgb(255 255 255);
 }
 
 .menu {
@@ -63,13 +63,14 @@ body {
 .menu a {
   text-decoration: none;
   font-size: 18px;
-  color: rgb(255, 255, 255);
+
+  color: rgb(255 255 255);
 }
 
 .menu i {
   margin-left: 8px;
   font-size: 12px;
-  color: rgb(255, 255, 255);
+  color: rgb(255 255 255);
 }
 
 .menu-btn {
@@ -96,7 +97,7 @@ body {
   border: none;
   cursor: pointer;
   font-size: 16px;
-  background-color: rgb(255, 228, 146);
+  background-color: rgb(255 228 146);
 }
 
 .btn-big {
@@ -105,7 +106,7 @@ body {
   border: none;
   cursor: pointer;
   font-size: 16px;
-  background-color: rgb(79, 156, 249);
+  background-color: rgb(79 156 249);
   color: rgb(255, 255, 255);
 }
 
@@ -149,7 +150,7 @@ body {
 
 .work-text p {
   font-size: 16px;
-  color: rgb(255, 255, 255);
+  color: rgb(255 255 255);
   margin-bottom: 32px;
 }
 
@@ -157,7 +158,7 @@ body {
   width: 100%;
   max-width: 600px;
   height: 400px;
-  background-color: rgb(196, 222, 253);
+  background-color: rgb(196 222 253);
   justify-self: end;
 }
 
@@ -196,7 +197,7 @@ body {
 .funnycirc-project {
   position: absolute;
   top: 50%;
-  left: 0px;
+  left: 0;
   bottom: 30px;
   transform: translateY(-50%);
   width: 500px;
@@ -209,7 +210,7 @@ body {
   width: 100%;
   max-width: 500px;
   height: 400px;
-  background-color: rgb(196, 222, 253);
+  background-color: rgb(196 222 253);
   justify-self: end;
 }
 
@@ -219,7 +220,7 @@ body {
   border: none;
   cursor: pointer;
   font-size: 18px;
-  background-color: rgb(79, 156, 249);
+  background-color: rgb(79 156 249);
   color: rgb(255, 255, 255);
 }
 
@@ -271,6 +272,20 @@ body {
   font-size: 72px;
   margin-bottom: 24px;
 }
+
+.profile span {
+  font-size: 14px;
+  line-height: 1.5;
+  display: block;
+}
+
+.dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(79 156 249);
+}
+
 .extension-text h2 span,
 .customise-text h2 span {
   display: inline-block;
@@ -288,7 +303,7 @@ body {
 
 .extension-text h2,
 .extension-text p {
-  color: rgb(255, 255, 255);
+  color: rgb(255 255 255);
 }
 
 .right-box {
@@ -300,7 +315,7 @@ body {
 }
 
 .plan {
-  padding: 64px 64px;
+  padding: 64px;
 }
 
 .plan h2 {
@@ -335,7 +350,7 @@ body {
 
 .subscription-card {
   padding: 32px;
-  border: 1px solid rgb(255, 228, 146);
+  border: 1px solid rgb(255 228 146);
   border-radius: 20px;
 }
 
@@ -374,8 +389,8 @@ body {
   transform: scale(1.08);
   z-index: 2;
   position: relative;
-  background-color: rgb(4, 56, 115);
-  color: rgb(255, 255, 255);
+  background-color: rgb(4 56 115);
+  color: rgb(255 255 255);
 }
 
 .personal h2 {
@@ -383,17 +398,7 @@ body {
 }
 
 .personal h3 {
-  color: rgb(255, 228, 146);
-}
-
-.personal .check-icon {
-  filter: invert(90%) sepia(40%) saturate(500%) hue-rotate(10deg);
-}
-
-.personal .card-button {
-  background-color: rgb(79, 156, 249);
-  color: rgb(255, 255, 255);
-  margin-bottom: 32px;
+  color: rgb(255 228 146);
 }
 
 .card-button {
@@ -402,6 +407,16 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.personal .check-icon {
+  filter: invert(90%) sepia(40%) saturate(500%) hue-rotate(10deg);
+}
+
+.personal .card-button {
+  background-color: rgb(79 156 249);
+  color: rgb(255 255 255);
+  margin-bottom: 32px;
 }
 
 .everywhere {
@@ -585,7 +600,7 @@ body {
 .card {
   padding: 40px 32px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px rgba(0 0 0 0.08);
 }
 
 .card p {
@@ -597,12 +612,12 @@ body {
 .card hr {
   border: none;
   height: 1px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255 255 255 0.5);
   margin-bottom: 32px;
 }
 
 .blue-card {
-  background-color: rgb(79, 156, 249);
+  background-color: rgb(79 156 249);
   color: rgb(255, 255, 255);
 }
 
@@ -616,7 +631,7 @@ body {
 }
 
 .first-card {
-  border: 2px solid rgb(255, 205, 41);
+  border: 2px solid rgb(255 205 41);
 }
 
 .profile {
@@ -630,24 +645,11 @@ body {
   font-size: 20px;
 }
 
-.profile span {
-  font-size: 14px;
-  line-height: 1.5;
-  display: block;
-}
-
 .dots {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-top: 40px;
-}
-
-.dots span {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: rgb(79, 156, 249);
 }
 
 .try-card {

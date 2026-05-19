@@ -366,13 +366,17 @@ body {
   text-align: center;
 }
 
-.card-heading {
+.card-heading, 
+.per-heading, 
+.org-sub-title {
   line-height: 1.5;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-.feature {
+.feature, 
+.per-feature-row, 
+.org-feature-list li {
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -380,9 +384,17 @@ body {
   margin-bottom: 16px;
 }
 
-.check-icon {
+.check-icon, 
+.per-check-img, 
+.org-vector {
   width: 24px;
   flex-shrink: 0;
+}
+
+.org-feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .personal {
@@ -401,16 +413,16 @@ body {
   color: rgb(255 228 146);
 }
 
+.personal .per-check-img {
+  filter: invert(90%) sepia(40%) saturate(500%) hue-rotate(10deg);
+}
+
 .card-button {
   margin-top: 2rem;
   padding: 0.9rem 1.5rem;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-}
-
-.personal .check-icon {
-  filter: invert(90%) sepia(40%) saturate(500%) hue-rotate(10deg);
 }
 
 .personal .card-button {
@@ -603,13 +615,17 @@ body {
   box-shadow: 0 4px 20px rgba(0 0 0 8%);
 }
 
-.card p {
+.card p,
+.quote-text,
+.review-body {
   line-height: 1.8;
   margin-bottom: 32px;
   font-size: 18px;
 }
 
-.card hr {
+.card hr,
+.profile-divider,
+.review-separator {
   border: none;
   height: 1px;
   background: rgba(255 255 255 50%);
@@ -621,12 +637,16 @@ body {
   color: rgb(255 255 255);
 }
 
-.quote {
+.quote,
+.quote-graphic,
+.review-icon {
   width: 60px;
   margin-bottom: 24px;
 }
 
-.blue-card .quote {
+.blue-card .quote,
+.blue-card .quote-graphic,
+.blue-card .review-icon {
   filter: brightness(0) invert(1);
 }
 
@@ -634,13 +654,17 @@ body {
   border: 2px solid rgb(255 205 41);
 }
 
-.profile {
+.profile,
+.user-profile,
+.client-meta-profile {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.profile h4 {
+.profile h4,
+.user-profile h3,
+.client-info-pane h3 {
   margin-bottom: 8px;
   font-size: 20px;
 }
@@ -651,6 +675,7 @@ body {
   gap: 10px;
   margin-top: 40px;
 }
+
 
 .try-card {
   max-width: 700px;

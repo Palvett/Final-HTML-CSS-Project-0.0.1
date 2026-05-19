@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -63,7 +64,6 @@ body {
 .menu a {
   text-decoration: none;
   font-size: 18px;
-
   color: rgb(255 255 255);
 }
 
@@ -107,7 +107,7 @@ body {
   cursor: pointer;
   font-size: 16px;
   background-color: rgb(79 156 249);
-  color: rgb(255, 255, 255);
+  color: rgb(255 255 255);
 }
 
 .btn-big i {
@@ -221,7 +221,7 @@ body {
   cursor: pointer;
   font-size: 18px;
   background-color: rgb(79 156 249);
-  color: rgb(255, 255, 255);
+  color: rgb(255 255 255);
 }
 
 .circles-container {
@@ -600,7 +600,7 @@ body {
 .card {
   padding: 40px 32px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0 0 0 0.08);
+  box-shadow: 0 4px 20px rgba(0 0 0 8%);
 }
 
 .card p {
@@ -612,13 +612,13 @@ body {
 .card hr {
   border: none;
   height: 1px;
-  background: rgba(255 255 255 0.5);
+  background: rgba(255 255 255 50%);
   margin-bottom: 32px;
 }
 
 .blue-card {
   background-color: rgb(79 156 249);
-  color: rgb(255, 255, 255);
+  color: rgb(255 255 255);
 }
 
 .quote {

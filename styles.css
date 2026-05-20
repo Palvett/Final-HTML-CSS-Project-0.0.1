@@ -29,7 +29,7 @@ body {
   z-index: 2;
 }
 
-.container-nav {
+.site-header-nav {
   position: sticky;
   top: 0;
   display: flex;
@@ -45,12 +45,12 @@ body {
   gap: 16px;
 }
 
-.logo-icon {
+.brand-logo-icon {
   width: 24px;
   height: 24px;
 }
 
-.logo-text {
+.brand-logo-text {
   font-weight: bold;
   font-size: 24px;
   color: rgb(255 255 255);
@@ -361,16 +361,20 @@ body {
   text-align: center;
 }
 
-.card-heading, 
-.per-heading, 
+.card-heading,
+
+.per-heading,
+
 .org-sub-title {
   line-height: 1.5;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-.feature, 
-.per-feature-row, 
+.feature,
+
+.per-feature-row,
+
 .org-feature-list li {
   display: flex;
   align-items: flex-start;
@@ -379,8 +383,10 @@ body {
   margin-bottom: 16px;
 }
 
-.check-icon, 
-.per-check-img, 
+.check-icon,
+
+.per-check-img,
+
 .org-vector {
   width: 24px;
   flex-shrink: 0;
@@ -670,7 +676,6 @@ body {
   gap: 10px;
   margin-top: 40px;
 }
-
 
 .try-card {
   max-width: 700px;

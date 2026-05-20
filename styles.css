@@ -301,11 +301,6 @@ body {
   line-height: 1.6;
 }
 
-.extension-text h2,
-.extension-text p {
-  color: rgb(255 255 255);
-}
-
 .right-box {
   justify-self: end;
 }

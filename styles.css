@@ -17,7 +17,7 @@ body {
   position: relative;
   background: rgb(4 56 115);
   color: white;
-  padding: 32px 0px;
+  padding: 32px;
   overflow: visible;
 }
 
@@ -296,6 +296,10 @@ body {
   background: rgb(79 156 249);
 }
 
+.first-card span {
+  font-size: 18px;
+}
+
 .extension-text h2 span,
 .customise-text h2 span {
   display: inline-block;
@@ -409,7 +413,7 @@ body {
 .org-feature-list {
   list-style: none;
   padding: 0;
-  margin: 0 0 16px 0;
+  margin: 0 0 16px;
   display: flex;
   flex-direction: column;
 }
@@ -452,7 +456,6 @@ body {
   color: rgb(255 255 255);
   margin-bottom: 0;
 }
-
 
 .everywhere h2 span {
   display: inline-block;
@@ -695,10 +698,6 @@ body {
   border: 2px solid rgb(255 205 41);
 }
 
-.first-card span {
-  font-size: 18px;
-}
-
 .profile,
 .user-profile,
 .client-meta-profile {
@@ -788,7 +787,7 @@ body {
 .box5 p {
   line-height: 1.6;
   font-size: 16px;
-  margin: 16px 0 16px 0;
+  margin: 16px 0;
   padding: 0;
 }
 

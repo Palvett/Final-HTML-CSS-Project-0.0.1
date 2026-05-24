@@ -17,7 +17,6 @@ body {
   position: relative;
   background: rgb(4 56 115);
   color: white;
-  padding: 32px;
   overflow: visible;
 }
 
@@ -587,7 +586,8 @@ body {
   background-image: url("assets/images/wavylines.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain; 
+  background-size: contain;
+
   padding: 120px;
   width: 100%;
 }
@@ -729,7 +729,7 @@ body {
   margin: 0 auto;
   text-align: center;
   color: #fff;
-  padding: 64px;
+  padding: 64px 16px;
 }
 
 .try-card h2 {
@@ -760,8 +760,8 @@ body {
 }
 
 .footer-box {
-  padding: 64px 16px;
-  margin: 0;
+  padding-top: 64px;
+  padding-bottom: 16px;
 }
 
 .upper-footer-box {
@@ -826,7 +826,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 0;
   width: 100%;
 }
 

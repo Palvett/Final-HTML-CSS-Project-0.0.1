@@ -17,7 +17,7 @@ body {
   position: relative;
   background: rgb(4 56 115);
   color: white;
-  padding: 64px 24px;
+  padding: 32px 0px;
   overflow: visible;
 }
 
@@ -118,6 +118,7 @@ body {
   position: relative;
   width: 100%;
   overflow: hidden;
+  padding: 64px;
 }
 
 .wavylines {
@@ -165,7 +166,7 @@ body {
 .project {
   position: relative;
   overflow: hidden;
-  padding: 160px 0;
+  padding: 128px;
 }
 
 .project .container {
@@ -183,7 +184,7 @@ body {
 .project-text h2 {
   font-size: 72px;
   margin-bottom: 24px;
-  background-image: url("assets/images/yellow-line.svg");
+  background-image: url("assets/icons/yellow-line.svg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -196,12 +197,11 @@ body {
 
 .funnycirc-project {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 0;
-  bottom: 30px;
   transform: translateY(-50%);
-  width: 500px;
-  opacity: 2;
+  width: 400px;
+  opacity: 1;
   z-index: -1;
   pointer-events: none;
 }
@@ -241,7 +241,7 @@ body {
 .together h2 {
   font-size: 72px;
   margin-bottom: 24px;
-  background-image: url("assets/images/yellow-line.svg");
+  background-image: url("assets/icons/yellow-line.svg");
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -251,12 +251,16 @@ body {
   margin-bottom: 32px;
 }
 
+.customise {
+  padding: 64px 0;
+  width: 100%;
+}
+
 .container-extension-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 6fr 4fr;
   align-items: center;
   gap: 64px;
-  padding: 64px 0;
 }
 
 .container-customise-grid {
@@ -265,6 +269,12 @@ body {
   align-items: center;
   gap: 64px;
   padding: 64px 0;
+  width: 100%;
+}
+
+.extension .blue-bg {
+  padding: 100px 0;
+  width: 100%;
 }
 
 .extension-text h2,
@@ -289,7 +299,7 @@ body {
 .extension-text h2 span,
 .customise-text h2 span {
   display: inline-block;
-  background-image: url("assets/images/yellow-line.svg");
+  background-image: url("assets/icons/yellow-line.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 8px;
@@ -306,11 +316,12 @@ body {
 }
 
 .left-box {
-  justify-self: start;
+  justify-self: stretch;
+  width: 100%;
 }
 
 .plan {
-  padding: 64px;
+  padding: 64px 0;
 }
 
 .plan h2 {
@@ -321,7 +332,7 @@ body {
 
 .plan h2 span {
   display: inline-block;
-  background-image: url("assets/images/yellow-line.svg");
+  background-image: url("assets/icons/yellow-line.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 16px;
@@ -334,23 +345,30 @@ body {
 }
 
 .subscription {
-  padding: 64px 0;
+  padding-bottom: 120px;
+  margin-bottom: 64px;
 }
 
 .subscription-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  gap: 32px;
+  align-items: center;
 }
 
 .subscription-card {
-  padding: 32px;
+  box-sizing: border-box;
   border: 1px solid rgb(255 228 146);
   border-radius: 20px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
 }
 
 .subscription-card h3 {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   font-size: 18px;
   text-align: center;
 }
@@ -366,7 +384,8 @@ body {
 .org-sub-title {
   line-height: 1.5;
   font-weight: bold;
-  margin-bottom: 8px;
+  padding: 8px 0;
+  margin-bottom: 16px;
 }
 
 .feature,
@@ -375,8 +394,9 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  margin-top: 8px;
+  margin-top: 4px;
   margin-bottom: 16px;
+  line-height: 1.5;
 }
 
 .check-icon,
@@ -389,19 +409,24 @@ body {
 .org-feature-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 16px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .personal {
+  box-sizing: border-box;
   transform: scale(1.08);
   z-index: 2;
   position: relative;
   background-color: rgb(4 56 115);
   color: rgb(255 255 255);
+  height: auto;
+  padding: 64px;
 }
 
 .personal h2 {
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 .personal h3 {
@@ -409,56 +434,56 @@ body {
 }
 
 .personal .per-check-img {
-  filter: invert(90%) sepia(40%) saturate(500%) hue-rotate(10deg);
+  filter: invert(93%) sepia(17%) saturate(1142%) hue-rotate(326deg) brightness(103%) contrast(101%);
 }
 
 .card-button {
-  margin-top: 2rem;
-  padding: 0.9rem 1.5rem;
-  border: none;
+  margin-top: auto;
+  padding: 16px 24px;
+  border: 1px solid rgb(255 228 146);
+  background-color: transparent;
   border-radius: 10px;
+  align-self: flex-start;
   cursor: pointer;
 }
 
 .personal .card-button {
   background-color: rgb(79 156 249);
   color: rgb(255 255 255);
-  margin-bottom: 32px;
+  margin-bottom: 0;
 }
 
-.everywhere {
-  position: relative;
-  overflow: hidden;
-  padding: 64px 0;
-}
 
 .everywhere h2 span {
   display: inline-block;
-  background-image: url("assets/images/blueline.svg");
+  background-image: url("assets/icons/blueline.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  padding-bottom: 0;
+  padding: 8px;
 }
 
-.everywhere .blue-bg {
+.everywhere.blue-bg {
   position: relative;
-  padding: 120px 0;
   background: #043873;
+  width: 100%;
+  padding: 64px;
 }
 
 .funnycirc1 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 0;
   transform: translateY(-50%);
-  width: 500px;
-  opacity: 0.2;
+  width: 400px;
+  opacity: 1;
   z-index: 1;
   pointer-events: none;
 }
 
 .everywhere-content {
-  max-width: 90%;
+  position: relative;
+  max-width: 100%;
+  z-index: 2;
   margin: 0 auto;
   text-align: center;
   color: white;
@@ -466,28 +491,29 @@ body {
 
 .everywhere-content h2 {
   font-size: 72px;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
+  width: 100%;
 }
 
 .everywhere-content p {
   font-size: 18px;
-  line-height: 1.7;
-  margin-bottom: 40px;
+  line-height: 1.8;
+  margin-bottom: 64px;
+  width: 100%;
 }
 
 .everywhere-content .btn-big1 {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
 }
 
 .data {
-  padding: 64px 0;
+  padding: 128px 64px;
 }
 
 .data h2 span {
   display: inline-block;
-  background-image: url("assets/images/yellow-line.svg");
+  background-image: url("assets/icons/yellow-line.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 16px;
@@ -517,7 +543,7 @@ body {
 }
 
 .sponsors {
-  padding: 64px 0;
+  padding: 64px;
 }
 
 .sponsors h2 {
@@ -528,7 +554,7 @@ body {
 
 .sponsors h2 span {
   display: inline-block;
-  background-image: url("assets/images/yellow-line.svg");
+  background-image: url("assets/icons/yellow-line.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 16px;
@@ -550,16 +576,36 @@ body {
 
 .apps-grid {
   position: relative;
+  width: 100%;
+}
+
+.apps-grid .blue-bg {
+  background-color: #043873;
+  background-image: url("assets/images/wavylines.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+  padding: 120px;
+  width: 100%;
+}
+
+.apps-grid .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 100px;
+  width: 100%;
 }
 
 .apps-container {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 4fr 6fr;
   align-items: center;
-  gap: 8rem;
-  margin-bottom: 32px;
-  position: relative;
-  z-index: 2;
+  gap: 32px;
+  width: 100%;
+}
+
+.apps-image-wrapper {
+  width: 100%;
 }
 
 .apps-image {
@@ -570,13 +616,15 @@ body {
 
 .apps h2 {
   font-size: 72px;
-  margin-bottom: 32px;
+  line-height: 1.2;
+  margin-bottom: 24px;
   color: white;
 }
 
 .apps p {
   font-size: 18px;
-  margin: 32px 0;
+  line-height: 1.6;
+  margin-bottom: 40px;
   color: white;
 }
 
@@ -592,7 +640,7 @@ body {
 
 .testimonials h2 span {
   display: inline-block;
-  background-image: url("assets/images/yellow-line.svg");
+  background-image: url("assets/icons/yellow-line.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   padding-bottom: 0;
@@ -618,15 +666,13 @@ body {
   font-size: 18px;
 }
 
-.card hr,
-.profile-divider,
-.review-separator {
-  border: none;
+.card hr {
   height: 1px;
   background: rgba(255 255 255 50%);
   margin-bottom: 32px;
 }
 
+.card hr,
 .blue-card {
   background-color: rgb(79 156 249);
   color: rgb(255 255 255);
@@ -647,6 +693,10 @@ body {
 
 .first-card {
   border: 2px solid rgb(255 205 41);
+}
+
+.first-card span {
+  font-size: 18px;
 }
 
 .profile,
@@ -671,11 +721,16 @@ body {
   margin-top: 40px;
 }
 
+.dots span:nth-child(2) {
+  background-color: rgb(4 56 115);
+}
+
 .try-card {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
   color: #fff;
+  padding: 64px;
 }
 
 .try-card h2 {
@@ -703,4 +758,103 @@ body {
 .icon-line img {
   width: 70px;
   height: auto;
+}
+
+.footer-box {
+  padding: 64px 16px;
+  margin: 0;
+}
+
+.upper-footer-box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 32px;
+}
+
+.footer-logo-row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.whitepace-logo-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.box1 p,
+.box5 p {
+  line-height: 1.6;
+  font-size: 16px;
+  margin: 16px 0 16px 0;
+  padding: 0;
+}
+
+.box2 h3,
+.box3 h3,
+.box4 h3,
+.box5 h3 {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.box2 ul,
+.box3 ul,
+.box4 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.box2 li,
+.box3 li,
+.box4 li {
+  margin-bottom: 16px;
+}
+
+.box2 a,
+.box3 a,
+.box4 a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.lower-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+  width: 100%;
+}
+
+.lower-box-1 ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 64px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lower-box-1 a {
+  text-decoration: none;
+  color: rgb(255 255 255);
+  font-size: 14px;
+}
+
+.lower-box-2 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.lower-box-2 img {
+  width: 24px;
+  height: 24px;
+  display: block;
 }

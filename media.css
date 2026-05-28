@@ -387,12 +387,12 @@
   }
 
   .lower-box-1 ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
 }
 
   .lower-box-2 {

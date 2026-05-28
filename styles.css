@@ -181,9 +181,26 @@ body {
   gap: 24px;
 }
 
+.first-card span {
+  font-size: 18px;
+}
+
 .project-text h2 {
   font-size: 40px;
   margin-bottom: 2rem;
+}
+
+.profile span {
+  font-size: 14px;
+  line-height: 1.6;
+  display: block;
+}
+
+.dots span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(79 156 249);
 }
 
 .project-text h2 span {
@@ -192,6 +209,7 @@ body {
   background-position: bottom;
   padding: 1rem;
 }
+
 .project-text p {
   font-size: 16px;
   margin-bottom: 2rem;
@@ -288,23 +306,6 @@ body {
 .customise-text h2 {
   font-size: 40px;
   margin-bottom: 1rem;
-}
-
-.profile span {
-  font-size: 14px;
-  line-height: 1.6;
-  display: block;
-}
-
-.dots span {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: rgb(79 156 249);
-}
-
-.first-card span {
-  font-size: 18px;
 }
 
 .extension-text h2 span,
@@ -444,7 +445,8 @@ body {
 }
 
 .personal .per-check-img {
-  filter: invert(93%) sepia(17%) saturate(1142%) hue-rotate(326deg)
+  filter:
+    invert(93%) sepia(17%) saturate(1142%) hue-rotate(326deg)
     brightness(103%) contrast(101%);
 }
 
@@ -807,6 +809,7 @@ body {
   margin-bottom: 1rem;
   word-wrap: break-word;
 }
+
 .box2 ul,
 .box3 ul,
 .box4 ul {

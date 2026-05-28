@@ -1,0 +1,406 @@
+@media (max-width: 320px) {
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  * {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  .container {
+    padding: 0 0.5rem;
+    width: 100%;
+  }
+
+  .blue-bg {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .site-header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .brand-logo-text {
+    font-size: 16px;
+  }
+
+  .menu,
+  .auth {
+    display: none !important;
+  }
+
+  .menu-btn {
+    display: block !important;
+  }
+
+  h1 {
+    font-size: 24px !important;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+
+  .container-work-grid {
+    grid-template-columns: 1fr;
+    padding: 2rem 0;
+  }
+
+  .box,
+  .box-1,
+  .right-box,
+  .left-box box {
+    display: block;
+    width: 100%;
+    height: 200px;
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .container-project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .circles-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .container-extension-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .container-customise-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .everywhere.blue-bg {
+    padding-bottom: 6rem !important;
+  }
+
+  .container-data-grid {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .half-circ-image-wrapper {
+    display: block;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .data {
+    margin-bottom: 8rem !important;
+  }
+
+  .apps-grid .blue-bg {
+    padding: 3rem 0 !important;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .apps-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+    gap: 24px !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .apps-image-wrapper {
+    display: block !important;
+    width: 100% !important;
+    max-width: 280px !important;
+    margin: 0 auto !important;
+  }
+
+  .apps-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .apps {
+    width: 100%;
+  }
+
+  .apps h2 {
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+
+  .apps p {
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+  }
+
+  .subscription-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .upper-footer-box {
+    grid-template-columns: 1fr;
+  }
+
+  .work {
+    padding: 2rem 0;
+  }
+
+  .project {
+    padding: 2rem 1rem;
+  }
+
+  .container-customise-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 24px !important;
+    padding: 0 !important;
+  }
+
+  .customise {
+    padding: 2rem 0;
+  }
+
+  .extension .blue-bg {
+    padding: 2rem 0;
+  }
+
+  .everywhere.blue-bg {
+    padding: 2rem 0;
+  }
+
+  .data {
+    padding: 2rem 0;
+  }
+
+  .sponsors {
+    padding: 2rem 0;
+  }
+
+  .testimonials {
+    padding: 2rem 0;
+    margin-top: 2rem;
+  }
+
+  .plan {
+    padding-top: 8rem;
+  }
+
+  .subscription {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .personal {
+    transform: scale(1);
+    padding: 2rem 1rem;
+  }
+
+  .sponsors-card {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    justify-items: center;
+  }
+
+  .try-card {
+    padding: 2rem 1rem;
+    max-width: 320px;
+  }
+
+  .icon-line img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .upper-footer-box {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .box2,
+  .box3,
+  .box4 {
+    margin-top: 4rem;
+  }
+
+  .lower-footer {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .lower-box-1 ul {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .btn-big,
+  .btn-big1,
+  .btn-small {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+
+  .funnycirc-project,
+  .funnycirc1 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+    width: 100%;
+  }
+
+  .menu,
+  .auth {
+    display: none !important;
+  }
+
+  .menu-btn {
+    display: block !important;
+  }
+
+  .container-extension-grid,
+  .container-project-grid,
+  .container-work-grid {
+    grid-template-columns: 1fr;
+    padding: 2rem 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .container-data-grid,
+  .circles-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .funnycirc-project {
+    display: none;
+  }
+
+  .circles-image {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+  }
+
+  .everywhere-content {
+    text-align: left !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+  }
+
+  .container-customise-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .sponsors-card {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    justify-items: center;
+  }
+
+  .apps-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .apps-image {
+    margin: 0 auto;
+    max-width: 450px;
+  }
+
+  .left-box,
+  .right-box {
+    align-self: center !important;
+    margin: 0 auto !important;
+  }
+
+  .try-card {
+    text-align: left;
+    padding-bottom: 2rem;
+  }
+
+  .icon-line {
+    justify-content: flex-start;
+  }
+
+  .footer-box {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .upper-footer-box {
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    padding: 0 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .mobile-break {
+    display: inline;
+  }
+
+  .whitepace-logo-text {
+    font-size: 40px;
+  }
+
+  .lower-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 2rem 1rem 1rem 1rem;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .lower-box-1 {
+    width: 100%;
+  }
+
+  .lower-box-1 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .lower-box-2 {
+    justify-content: flex-start;
+    width: 100%;
+  }
+}

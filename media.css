@@ -44,6 +44,7 @@
   h1 {
     font-size: 24px !important;
   }
+
   h2 {
     font-size: 20px !important;
   }
@@ -53,10 +54,10 @@
     padding: 2rem 0;
   }
 
-  .box,
+  .box0,
   .box-1,
   .right-box,
-  .left-box box {
+  .left-box {
     display: block;
     width: 100%;
     height: 200px;
@@ -80,14 +81,6 @@
     grid-template-columns: 1fr;
   }
 
-  .container-customise-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .everywhere.blue-bg {
-    padding-bottom: 6rem !important;
-  }
-
   .container-data-grid {
     display: flex;
     flex-direction: column-reverse;
@@ -99,10 +92,6 @@
     display: block;
     margin-top: 4rem;
     margin-bottom: 2rem;
-  }
-
-  .data {
-    margin-bottom: 8rem !important;
   }
 
   .apps-grid .blue-bg {
@@ -155,10 +144,6 @@
   }
 
   .testimonials-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .upper-footer-box {
     grid-template-columns: 1fr;
   }
 
@@ -244,14 +229,25 @@
     margin-top: 4rem;
   }
 
-  .lower-footer {
-    flex-direction: column;
-    gap: 16px;
+  .lower-footer,
+  .lower-box-1 ul,
+  .lower-box-2 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 20px !important;
+    width: 100% !important;
+    padding: 0 !important;
   }
 
-  .lower-box-1 ul {
-    flex-direction: column;
-    gap: 16px;
+  .lower-box-2 {
+    flex-direction: row !important;
+    justify-content: center !important;
+  }
+
+  .lower-box-2 img {
+    display: block !important;
   }
 
   .btn-big,
@@ -360,6 +356,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+
   .upper-footer-box {
     grid-template-columns: 1fr;
     align-items: flex-start;
@@ -380,7 +377,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
-    padding: 2rem 1rem 1rem 1rem;
+    padding: 2rem 1rem 1rem;
     box-sizing: border-box;
     width: 100%;
   }
@@ -390,14 +387,13 @@
   }
 
   .lower-box-1 ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 16px;
-    width: 100%;
-  }
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
 
   .lower-box-2 {
     justify-content: flex-start;

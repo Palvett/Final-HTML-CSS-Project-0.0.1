@@ -845,9 +845,10 @@ body {
 }
 
 .lower-box-1 ul {
-  display: flex;
-  align-items: center;
-  gap: 64px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 16px;
   list-style: none;
   padding: 0;
   margin: 0;

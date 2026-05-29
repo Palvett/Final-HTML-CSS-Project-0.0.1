@@ -42,7 +42,7 @@
 
   .box0,
   .box {
-    margin: 2rem auto 0 auto !important;
+    margin: 2rem auto 0 !important;
     max-width: 100% !important;
   }
 
@@ -273,6 +273,8 @@
   .container-project-grid {
     grid-template-columns: 1fr;
     justify-items: center;
+    padding-bottom: 0 !important;
+    gap: 1rem !important;
   }
 
   .circles-container {
@@ -294,11 +296,6 @@
 
   .together p {
     margin-bottom: 1.5rem !important;
-  }
-
-  .container-project-grid {
-    padding-bottom: 0 !important;
-    gap: 1rem !important;
   }
 
   .container-customise-grid {
@@ -326,8 +323,10 @@
 
   .half-circ-image-wrapper {
     display: block;
-    margin-top: 4rem;
+    padding-top: 1rem !important;
     margin-bottom: 2rem;
+    margin-top: 0 !important;
+  }
   }
 
   .apps-grid .blue-bg {
@@ -362,6 +361,15 @@
 
   .everywhere-content p {
     margin-bottom: 1rem !important;
+  }
+
+  .btn-big,
+  .btn-big1,
+  .btn-small {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
   }
 
   .everywhere-content .btn-big1 {
@@ -470,7 +478,7 @@
     flex-direction: row !important;
     justify-content: center !important;
     align-items: center !important;
-    flex-wrap: wrap !important;
+    flex-flow: nowwrap !important;
     gap: 20px !important;
   }
 
@@ -524,15 +532,6 @@
     display: block !important;
   }
 
-  .btn-big,
-  .btn-big1,
-  .btn-small {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: auto;
-  }
-
   .funnycirc-project,
   .funnycirc1 {
     display: none;
@@ -540,11 +539,6 @@
 
   .data {
     padding-top: 0 !important;
-    margin-top: 0 !important;
-  }
-
-  .half-circ-image-wrapper {
-    padding-top: 1rem !important;
     margin-top: 0 !important;
   }
 }

@@ -473,12 +473,12 @@
   }
 
   .icon-line {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: center !important;
-  align-items: center !important;
-  flex-wrap: nowrap !important;
-  gap: 20px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    gap: 20px !important;
   }
 
   .icon-line img {
@@ -540,7 +540,7 @@
     padding-top: 0 !important;
     margin-top: 0 !important;
   }
-} 
+}
 
 @media (max-width: 1152px) {
   .container {

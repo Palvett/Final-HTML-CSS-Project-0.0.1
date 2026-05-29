@@ -473,12 +473,12 @@
   }
 
   .icon-line {
-    display: flex !important;
-    flex-direction: row !important;
-    justify-content: center !important;
-    align-items: center !important;
-    flex-flow: nowwrap !important;
-    gap: 20px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  gap: 20px !important;
   }
 
   .icon-line img {

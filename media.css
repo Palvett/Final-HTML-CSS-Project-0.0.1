@@ -474,10 +474,9 @@
 
   .icon-line {
     display: flex !important;
-    flex-direction: row !important;
+    flex-flow: row nowrap !important;
     justify-content: center !important;
     align-items: center !important;
-    flex-wrap: nowrap !important;
     gap: 20px !important;
   }
 

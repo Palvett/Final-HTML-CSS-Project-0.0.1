@@ -327,7 +327,6 @@
     margin-bottom: 2rem;
     margin-top: 0 !important;
   }
-  }
 
   .apps-grid .blue-bg {
     padding: 3rem 0 !important;
@@ -541,7 +540,7 @@
     padding-top: 0 !important;
     margin-top: 0 !important;
   }
-}
+} 
 
 @media (max-width: 1152px) {
   .container {

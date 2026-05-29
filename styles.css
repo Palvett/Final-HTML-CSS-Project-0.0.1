@@ -448,8 +448,7 @@ body {
 }
 
 .personal .per-check-img {
-  filter:
-  invert(93%) sepia(17%) saturate(1142%) hue-rotate(326deg)
+  filter: invert(93%) sepia(17%) saturate(1142%) hue-rotate(326deg)
     brightness(103%) contrast(101%);
 }
 

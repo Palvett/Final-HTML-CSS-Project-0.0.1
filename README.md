@@ -30,12 +30,15 @@ A simple, clean landing page built for Whitepace. This web page displays an inte
 
 ## 📷 Screenshots
 
-(Add your project screenshot links or images here)
+![alt text](assets/images/whitepace-saas.png)
 
 ## ⚙ Installation & Setup
 
-1. Clone or download this project repository to your local machine.
-2. Open the index.html file inside any modern web browser to view the live layout.
+```text
+git clone https://github.com/Palvett/Final-HTML-CSS-Project-0.0.1.git
+```
+
+cd Final-HTML-CSS-Project-0.0.1
 
 ## 🧠 Challenges Faced
 

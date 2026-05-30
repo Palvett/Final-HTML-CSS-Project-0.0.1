@@ -46,6 +46,17 @@
     max-width: 100% !important;
   }
 
+  .work {
+    position: relative;
+    padding: 3rem 0;
+  }
+
+  .wavylines {
+    object-position: 10% 12%;
+    opacity: 0.6;
+    width: 100%;
+  }
+
   .container-project-grid {
     display: flex !important;
     flex-direction: column !important;

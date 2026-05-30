@@ -1,6 +1,6 @@
 # Whitepace SaaS Landing Page
 
-A simple, clean landing page built for Whitepace. This webpage displays an interactive layout which explains what the page is for, projects, tailored options, and subscription tiers, amongst others.
+A simple, clean landing page built for Whitepace. This web page displays an interactive layout which explains what the page is for, projects, tailored options, and subscription tiers, amongst others.
 
 ## 📌 Problem Statement
 

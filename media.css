@@ -3,13 +3,30 @@
     max-width: 1600px;
   }
 
-  h1, .work-text h1,
-  h2, .project-text h2, .together h2, .extension-text h2, .customise-text h2, .plan h2, .everywhere-content h2, .data-text h2, .sponsors h2, .apps-content h2, .testimonials h2 {
+  h1,
+   .work-text h1,
+  h2,
+   .project-text h2,
+   .together h2,
+   .extension-text h2,
+   .customise-text h2,
+   .plan h2, .everywhere-content h2,
+   .data-text h2, .sponsors h2,
+   .apps-content h2,
+   .testimonials h2 {
     font-size: 72px !important;
     line-height: 1.2 !important;
   }
 
-  p, .together p, .extension-text p, .customise-text p, .plan p, .everywhere-content p, .data-text p, .apps-content p, .testimonial-text {
+  p,
+   .together p,
+   .extension-text p,
+   .customise-text p,
+   .plan p,
+   .everywhere-content p,
+   .data-text p,
+   .apps-content p,
+   .testimonial-text {
     font-size: 18px !important;
     line-height: 1.6 !important;
   }
@@ -57,17 +74,37 @@
     padding: 0 2rem;
   }
 
-  .work-text h1, h1 {
+  h1,
+  .work-text h1 {
     font-size: 64px !important;
     line-height: 1.2 !important;
   }
 
-  .testimonials h2, .apps-content h2, .sponsors h2, .data-text h2, .everywhere-content h2, .plan h2, .customise-text h2, .extension-text h2, .together h2, .project-text h2, h2 {
+  h2,
+  .testimonials h2,
+  .apps-content h2,
+  .sponsors h2,
+  .data-text h2,
+  .everywhere-content h2,
+  .plan h2,
+  .customise-text h2,
+  .extension-text h2,
+  .together h2,
+  .project-text h2 {
     font-size: 54px !important;
     line-height: 1.2 !important;
   }
 
-  .testimonial-text, .apps-content p, .data-text p, .everywhere-content p, .plan p, .customise-text p, .extension-text p, .together p, .project-text p, p {
+  .testimonial-text,
+  .apps-content p,
+  .data-text p,
+  .everywhere-content p,
+  .plan p,
+  .customise-text p,
+  .extension-text p,
+  .together p,
+  .project-text p,
+  p {
     font-size: 18px !important;
     line-height: 1.6 !important;
   }
@@ -122,17 +159,37 @@
     display: block;
   }
 
-  section.work h1, .work-text h1, h1 {
+  section.work h1,
+  .work-text h1,
+  h1 {
     font-size: 52px !important;
     line-height: 1.2 !important;
   }
 
-  section h2, .project-text h2, .together h2, .extension-text h2, .customise-text h2, .plan h2, .everywhere-content h2, .data-text h2, .sponsors h2, .apps-content h2, .testimonials h2 {
+  section h2,
+  .project-text h2,
+  .together h2,
+  .extension-text h2,
+  .customise-text h2,
+  .plan h2,
+  .everywhere-content h2,
+  .data-text h2,
+  .sponsors h2,
+  .apps-content h2,
+  .testimonials h2 {
     font-size: 44px !important;
     line-height: 1.2 !important;
   }
 
-  section p, .together p, .extension-text p, .customise-text p, .plan p, .everywhere-content p, .data-text p, .apps-content p, .testimonial-text {
+  section p,
+  .together p,
+  .extension-text p,
+  .customise-text p,
+  .plan p,
+  .everywhere-content p,
+  .data-text p,
+  .apps-content p,
+  .testimonial-text {
     font-size: 16px !important;
     line-height: 1.6 !important;
   }

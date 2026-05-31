@@ -701,7 +701,7 @@ body {
 .card hr {
   border: none;
   height: 1px;
-  background: rgba(0, 0, 0, 10%);
+  background: rgba(0 0 0 10%);
   margin-bottom: 2rem;
   width: 100%;
 }

@@ -21,14 +21,14 @@
   }
 
   p,
-   .together p,
-   .extension-text p,
-   .customise-text p,
-   .plan p,
-   .everywhere-content p,
-   .data-text p,
-   .apps-content p,
-   .testimonial-text {
+  .together p,
+  .extension-text p,
+  .customise-text p,
+  .plan p,
+  .everywhere-content p,
+  .data-text p,
+  .apps-content p,
+  .testimonial-text {
     font-size: 18px !important;
     line-height: 1.6 !important;
   }
@@ -162,7 +162,7 @@
   }
 
   h1,
-  .work-text h1
+  .work-text h1,
   section.work h1 {
     font-size: 52px !important;
     line-height: 1.2 !important;

@@ -61,6 +61,7 @@
     margin: 0 auto;
   }
 }
+
 @media screen and (max-width: 1440px) {
   .container {
     max-width: 1200px;
@@ -220,7 +221,6 @@
     width: 250px;
   }
 }
-
 
 @media (max-width: 768px) {
   .container {

@@ -4,16 +4,18 @@
   }
 
   h1,
-   .work-text h1,
+  .work-text h1,
   h2,
-   .project-text h2,
-   .together h2,
-   .extension-text h2,
-   .customise-text h2,
-   .plan h2, .everywhere-content h2,
-   .data-text h2, .sponsors h2,
-   .apps-content h2,
-   .testimonials h2 {
+  .project-text h2,
+  .together h2,
+  .extension-text h2,
+  .customise-text h2,
+  .plan h2,
+  .everywhere-content h2,
+  .data-text h2,
+  .sponsors h2,
+  .apps-content h2,
+  .testimonials h2 {
     font-size: 72px !important;
     line-height: 1.2 !important;
   }
@@ -95,6 +97,7 @@
     line-height: 1.2 !important;
   }
 
+  p,
   .testimonial-text,
   .apps-content p,
   .data-text p,
@@ -103,8 +106,7 @@
   .customise-text p,
   .extension-text p,
   .together p,
-  .project-text p,
-  p {
+  .project-text p {
     font-size: 18px !important;
     line-height: 1.6 !important;
   }
@@ -159,9 +161,9 @@
     display: block;
   }
 
-  section.work h1,
-  .work-text h1,
-  h1 {
+  h1,
+  .work-text h1
+  section.work h1 {
     font-size: 52px !important;
     line-height: 1.2 !important;
   }

@@ -59,9 +59,13 @@ cd Final-HTML-CSS-Project-0.0.1
 - Using CSS overflow configurations to eliminate layout breaking scrollbars.
 - Practical application of span, ul-li structures, z-index layering, and fluid typography.
 
+Future Improvements
+Still working on it.
+
 ## 👨🏽‍💻 Author
 
 Fonba Palvett Blaise Kongnyuy  
-Junior Fullstack Developer  
-- Email: palvettblaise406@gmail.com  
+Junior Fullstack Developer
+
+- Email: palvettblaise406@gmail.com
 - Location: Cameroon | Open to remote opportunities

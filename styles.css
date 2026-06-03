@@ -166,7 +166,7 @@ body {
 }
 
 .box0 {
-  background-image: url(assets/images/work-done-image.svg);
+  background-image: url("assets/images/work-done-image.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -198,6 +198,10 @@ body {
 .project-text h2 {
   font-size: 40px;
   margin-bottom: 2rem;
+}
+
+.box2 span {
+  color: rgb(255 228 146);
 }
 
 .profile span {
@@ -243,7 +247,7 @@ body {
   height: 400px;
   background-color: rgb(196 222 253);
   justify-self: end;
-  background-image: url(assets/images/Project-management-image.svg);
+  background-image: url("assets/images/Project-management-image.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -340,7 +344,7 @@ body {
 
 .right-box {
   justify-self: end;
-  background-image: url(assets/images/Extension-image.svg);
+  background-image: url("assets/images/Extension-image.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -349,7 +353,7 @@ body {
 .left-box {
   justify-self: start;
   width: 100%;
-  background-image: url(assets/images/customise-image.svg);
+  background-image: url("assets/images/customise-image.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -901,10 +905,6 @@ body {
   color: inherit;
   font-size: 16px;
   display: inline-block;
-}
-
-.box2 span {
-  color: rgb(255 228 146);
 }
 
 .box5 {

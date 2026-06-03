@@ -23,8 +23,10 @@
   <body>
     <div class="blue-bg">
       <div class="container">
+
         <header>
-          <div class="site-header-nav" aria-label="Primary Site Navigation">
+          <nav aria-label="Primary Site Navigation">
+          <div class="site-header-nav">
             <div class="logo">
               <img
                 src="assets/icons/Logo.svg"
@@ -80,11 +82,13 @@
               <i class="fa-solid fa-bars"></i>
             </button>
           </div>
+          </nav>
         </header>
       </div>
 
+      <main>
       <section class="work">
-        <img src="assets/images/wavylines.png" alt="" class="wavylines" />
+        <img src="assets/images/wavylines.png" alt="wavylines-background-image" class="wavylines" />
         <div class="container">
           <div class="container-work-grid">
             <div class="work-text">
@@ -424,7 +428,7 @@
     </section>
 
     <section class="everywhere blue-bg">
-      <img src="assets/images/funnycirc1.png" alt="" class="funnycirc1" />
+      <img src="assets/images/funnycirc1.png" alt="wavylines-background-image" class="funnycirc1" />
       <div class="container">
         <div class="everywhere-content">
           <h2>Your work, everywhere <span>you are</span></h2>
@@ -509,7 +513,10 @@
       </div>
     </section>
 
-        <div class="testimonials-grid">
+    <section class="testimonials">
+      <div class="container">
+        <articles class="testimonials-container">
+
       <!-- Card 1: containing the original text on the demo -->
       <div class="card first-card">
         <img src="assets/icons/Quote.svg" alt="Quote icon" class="quote-graphic" />
@@ -526,7 +533,7 @@
         </div>
       </div>
 
-      <!-- Card 3: I finally decided to alter the pargraph text to solve the clone errors-->
+      <!-- Card 2: I finally decided to alter the pargraph text to solve the clone errors-->
       <div class="card blue-card card-featured-left">
         <img src="assets/icons/Quote.svg" alt="Quote icon" class="quote-graphic" />
         <p class="quote-text">
@@ -558,6 +565,7 @@
         </div>
       </div>
     </div>
+    </section>
 
 
     <div class="blue-bg">
@@ -607,7 +615,7 @@
             <div class="box2">
               <h3>Product</h3>
               <ul>
-                <li><a href="#">Overview</a></li>
+                <li><a href="#"><span>Overview</span></a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Customer stories</a></li>
               </ul>
@@ -646,6 +654,7 @@
           </div>
 
           <hr />
+      </main>
 
           <div class="lower-footer">
             <div class="lower-box-1">

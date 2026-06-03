@@ -165,6 +165,13 @@ body {
   background-color: rgb(196 222 253);
 }
 
+.box0 {
+  background-image: url(assets/images/work-done-image.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .project {
   position: relative;
   overflow: hidden;
@@ -236,6 +243,10 @@ body {
   height: 400px;
   background-color: rgb(196 222 253);
   justify-self: end;
+  background-image: url(assets/images/Project-management-image.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .btn-big1 {
@@ -329,11 +340,19 @@ body {
 
 .right-box {
   justify-self: end;
+  background-image: url(assets/images/Extension-image.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .left-box {
   justify-self: start;
   width: 100%;
+  background-image: url(assets/images/customise-image.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .plan {
@@ -351,7 +370,7 @@ body {
   background-image: url("assets/icons/yellow-line.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  padding-bottom: 16px;
+  padding-bottom: 1rem;
 }
 
 .plan p {
@@ -449,7 +468,8 @@ body {
 }
 
 .personal .per-check-img {
-  filter: invert(93%) sepia(17%) saturate(1142%) hue-rotate(326deg) brightness(103%) contrast(101%);
+  filter: invert(93%) sepia(17%) saturate(1142%) hue-rotate(326deg)
+    brightness(103%) contrast(101%);
 }
 
 .card-button {
@@ -572,7 +592,7 @@ body {
   background-image: url("assets/icons/yellow-line.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  padding-bottom: 16px;
+  padding-bottom: 1rem;
 }
 
 .sponsors-card {
@@ -652,7 +672,7 @@ body {
   padding-bottom: 0;
 }
 
-.testimonials-grid {
+.testimonials-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
@@ -823,7 +843,7 @@ body {
 .footer-logo-row {
   display: flex;
   align-items: baseline;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .whitepace-logo-icon {
@@ -871,6 +891,7 @@ body {
 .box3 li,
 .box4 li {
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .box2 a,
@@ -880,6 +901,10 @@ body {
   color: inherit;
   font-size: 16px;
   display: inline-block;
+}
+
+.box2 span {
+  color: rgb(255 228 146);
 }
 
 .box5 {

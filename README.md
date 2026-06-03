@@ -30,7 +30,7 @@ A simple, clean landing page built for Whitepace. This web page displays an inte
 
 ## 📷 Screenshots
 
-![alt text](assets/images/whitepace-saas.png)
+![Whitepace Project Screenshot](assets/images/Whitepace%20Project%20Screenshot.png)
 
 ## ⚙ Installation & Setup
 

@@ -172,8 +172,8 @@
   h1,
   .work-text h1,
   section.work h1 {
-    font-size: 52px !important;
-    line-height: 1.2 !important;
+    font-size: 52px;
+    line-height: 1.2;
   }
 
   section h2,
@@ -222,7 +222,7 @@
   }
 
   .personal {
-    transform: scale(1);
+    transform: scale(1.10);
     padding: 2.5rem 1.5rem;
   }
 
@@ -354,7 +354,8 @@
   }
 
   .personal {
-    transform: scale(1.15) !important;
+    padding: 2rem;
+    min-height: auto;
   }
 
   .everywhere-content {
@@ -455,6 +456,7 @@
   }
 
   p,
+  .project-text p,
   .together p,
   .extension-text p,
   .customise-text p,
@@ -462,9 +464,7 @@
   .everywhere-content p,
   .data-text p,
   .apps p,
-  .testimonial-text,
-  span,
-  li {
+  .testimonial-text {
     font-size: 14px !important;
     line-height: 1.6 !important;
     word-wrap: break-word !important;
@@ -497,20 +497,54 @@
 
   .subscription-grid,
   .testimonials-container {
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-    gap: 1.5rem !important;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-content: flex-start;
+  }
+
+  .subscription-grid::-webkit-scrollbar,
+  .testimonials-container::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .plan,
+  .everywhere.blue-bg {
+    padding: 1rem 0;
+  }
+
+  .slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .slider-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(79 156 249);
+  }
+
+  .slider-dots .active {
+    background:  rgb(4 56 115);
   }
 
   .subscription-card,
   .testimonials-card {
-    width: 100% !important;
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-    padding: 1.5rem 1rem !important;
+    flex: 0 0 220px;
+    max-width: 220px;
+    height: auto !important;
+    scroll-snap-align: center !important;
+  }
+
+  .subscription-card.personal {
+    transform: none !important;
+    padding: 2rem !important;
   }
 
   .upper-footer-box {

@@ -7,9 +7,9 @@
   --clr-light: white;
   --clr-slate: grey;
   --clr-primary-blue: #043873;
-  --clr-secondary-blue: #4F9CF9;
-  --clr-tertiary-blue: #C4DEFD;
-  --clr-ascent-yellow: #FFE492;
+  --clr-secondary-blue: #4f9cf9;
+  --clr-tertiary-blue: #c4defd;
+  --clr-ascent-yellow: #ffe492;
 }
 
 * {
@@ -478,8 +478,13 @@ body {
 }
 
 .personal .per-check-img {
-  filter: invert(93%) sepia(17%) saturate(1142%) hue-rotate(326deg)
-    brightness(103%) contrast(101%);
+  filter:
+    invert(93%)
+    sepia(17%)
+    saturate(1142%)
+    hue-rotate(326deg)
+    brightness(103%)
+    contrast(101%);
 }
 
 .card-button {
@@ -534,7 +539,7 @@ body {
   z-index: 2;
   margin: 0 auto;
   text-align: center;
-  color: var(--clr-light)
+  color: var(--clr-light);
 }
 
 .everywhere-content h2 {

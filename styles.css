@@ -1,6 +1,17 @@
 /* =========================
    1. RESET
 ========================= */
+
+:root {
+  --clr-dark: black;
+  --clr-light: white;
+  --clr-slate: grey;
+  --clr-primary-blue: #043873;
+  --clr-secondary-blue: #4F9CF9;
+  --clr-tertiary-blue: #C4DEFD;
+  --clr-ascent-yellow: #FFE492;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +25,8 @@ body {
 
 .blue-bg {
   position: relative;
-  background: rgb(4 56 115);
-  color: white;
+  background: var(--clr-primary-blue);
+  color: var(--clr-light);
   width: 100%;
   overflow: hidden;
 }
@@ -34,7 +45,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-top: 1rem;
-  background-color: rgb(4 56 115);
   width: 100%;
 }
 
@@ -52,7 +62,7 @@ body {
 .brand-logo-text {
   font-weight: bold;
   font-size: 24px;
-  color: rgb(255 255 255);
+  color: var(--clr-light);
 }
 
 .menu {
@@ -63,13 +73,13 @@ body {
 .menu a {
   text-decoration: none;
   font-size: 18px;
-  color: rgb(255 255 255);
+  color: var(--clr-light);
 }
 
 .menu i {
   margin-left: 1rem;
   font-size: 12px;
-  color: rgb(255 255 255);
+  color: var(--clr-light);
 }
 
 .menu-btn {
@@ -77,7 +87,7 @@ body {
   background: none;
   border: none;
   font-size: 24px;
-  color: white;
+  color: var(--clr-light);
   cursor: pointer;
   margin-left: 1.5rem;
 }
@@ -97,7 +107,7 @@ body {
   border: none;
   cursor: pointer;
   font-size: 16px;
-  background-color: rgb(255 228 146);
+  background-color: var(--clr-ascent-yellow);
 }
 
 .btn-big {
@@ -106,8 +116,8 @@ body {
   border: none;
   cursor: pointer;
   font-size: 16px;
-  background-color: rgb(79 156 249);
-  color: rgb(255 255 255);
+  background-color: var(--clr-secondary-blue);
+  color: var(--clr-light);
 }
 
 .btn-big i {
@@ -153,7 +163,7 @@ body {
 
 .work-text p {
   font-size: 16px;
-  color: rgb(255 255 255);
+  color: var(--clr-light);
   margin-bottom: 2rem;
   line-height: 1.6;
 }
@@ -162,7 +172,7 @@ body {
   width: 100%;
   max-width: 600px;
   height: 400px;
-  background-color: rgb(196 222 253);
+  background-color: var(--clr-tertiary-blue);
 }
 
 .box0 {
@@ -191,17 +201,13 @@ body {
   padding: 4rem 0;
 }
 
-.first-card span {
-  font-size: 18px;
-}
-
 .project-text h2 {
   font-size: 40px;
   margin-bottom: 2rem;
 }
 
 .box2 span {
-  color: rgb(255 228 146);
+  color: var(--clr-ascent-yellow);
 }
 
 .profile span {
@@ -214,7 +220,7 @@ body {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: rgb(79 156 249);
+  background: var(--clr-secondary-blue);
 }
 
 .project-text h2 span {
@@ -245,7 +251,7 @@ body {
   width: 100%;
   max-width: 600px;
   height: 400px;
-  background-color: rgb(196 222 253);
+  background-color: var(--clr-tertiary-blue);
   justify-self: end;
   background-image: url("assets/images/Project-management-image.svg");
   background-position: center;
@@ -259,7 +265,7 @@ body {
   border: none;
   cursor: pointer;
   font-size: 18px;
-  background-color: rgb(79 156 249);
+  background-color: var(--clr-secondary-blue);
   color: rgb(255 255 255);
 }
 
@@ -397,7 +403,7 @@ body {
 
 .subscription-card {
   box-sizing: border-box;
-  border: 1px solid rgb(255 228 146);
+  border: 1px solid var(--clr-ascent-yellow);
   border-radius: 20px;
   padding: 2rem;
   display: flex;
@@ -457,8 +463,8 @@ body {
   transform: scale(1.08);
   z-index: 2;
   position: relative;
-  background-color: rgb(4 56 115);
-  color: rgb(255 255 255);
+  background-color: var(--clr-primary-blue);
+  color: var(--clr-light);
   height: auto;
   padding: 4rem;
 }
@@ -468,19 +474,18 @@ body {
 }
 
 .personal h3 {
-  color: rgb(255 228 146);
+  color: var(--clr-ascent-yellow);
 }
 
 .personal .per-check-img {
-  filter:
-    invert(93%) sepia(17%) saturate(1142%) hue-rotate(326deg)
+  filter: invert(93%) sepia(17%) saturate(1142%) hue-rotate(326deg)
     brightness(103%) contrast(101%);
 }
 
 .card-button {
   margin-top: auto;
   padding: 1rem 2rem;
-  border: 1px solid rgb(255 228 146);
+  border: 1px solid var(--clr-ascent-yellow);
   background-color: transparent;
   border-radius: 10px;
   align-self: flex-start;
@@ -492,8 +497,8 @@ body {
 }
 
 .personal .card-button {
-  background-color: rgb(79 156 249);
-  color: rgb(255 255 255);
+  background-color: var(--clr-secondary-blue);
+  color: var(--clr-light);
   margin-bottom: 0;
 }
 
@@ -507,7 +512,7 @@ body {
 
 .everywhere.blue-bg {
   position: relative;
-  background: #043873;
+  background: var(--clr-primary-blue);
   width: 100%;
   padding: 4rem 0;
 }
@@ -529,7 +534,7 @@ body {
   z-index: 2;
   margin: 0 auto;
   text-align: center;
-  color: white;
+  color: var(--clr-light)
 }
 
 .everywhere-content h2 {
@@ -619,7 +624,7 @@ body {
 }
 
 .apps-grid .blue-bg {
-  background-color: #043873;
+  background-color: var(--clr-primary-blue);
   background-image: url("assets/images/wavylines.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -651,20 +656,18 @@ body {
   font-size: 40px;
   line-height: 1.6;
   margin-bottom: 2rem;
-  color: white;
+  color: var(--clr-light);
 }
 
 .apps p {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 2rem;
-  color: white;
+  color: var(--clr-light);
 }
 
 .testimonials {
   padding: 4rem 0;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .testimonials h2 {
@@ -678,37 +681,29 @@ body {
   background-image: url("assets/icons/yellow-line.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  padding-bottom: 0;
 }
 
 .testimonials-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  align-items: stretch;
   width: 100%;
 }
 
 .card {
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0 0 0 / 8%);
+  box-shadow: 0 10px 30px rgba(0 0 0 / 15%);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  box-sizing: border-box;
   width: 100%;
-  background-color: rgb(255 255 255);
+  background-color: var(--clr-light);
 }
 
-.first-card {
-  border: 2px solid rgb(255 205 41);
-}
-
-.blue-card,
-.card-featured-left,
-.card-featured-right {
-  background-color: rgb(79 156 249);
-  color: rgb(255 255 255);
+.blue-card {
+  background-color: var(--clr-secondary-blue);
+  color: var(--clr-light);
 }
 
 .quote-graphic {
@@ -718,41 +713,34 @@ body {
   display: block;
 }
 
-.blue-card .quote-graphic,
-.card-featured-left .quote-graphic,
-.card-featured-right .quote-graphic {
+.blue-card .quote-graphic {
   filter: brightness(0) invert(1);
 }
 
 .quote-text {
   line-height: 1.6;
-  margin-bottom: 2rem;
   font-size: 18px;
-  flex-grow: 1;
+  margin: 0;
 }
 
 .card hr {
   border: none;
-  height: 1px;
-  background: rgba(0 0 0 / 10%);
-  margin-bottom: 2rem;
+  height: 2px;
+  background: var(--clr-slate);
+  margin-bottom: 4rem;
+  margin-top: 4rem;
   width: 100%;
 }
 
-.blue-card hr,
-.card-featured-left hr,
-.card-featured-right hr {
-  background: rgba(255 255 255 / 50%);
+.blue-card hr {
+  background: var(--clr-light);
 }
 
-.user-profile,
-.user-profile-left,
-.user-profile-right {
+.user-profile {
   display: flex;
   align-items: center;
   gap: 1rem;
   width: 100%;
-  box-sizing: border-box;
 }
 
 .avatar-img {
@@ -762,9 +750,7 @@ body {
   object-fit: cover;
 }
 
-.user-details-box,
-.profile-box-left,
-.profile-box-right {
+.user-details-box {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -772,21 +758,16 @@ body {
   flex: 1;
 }
 
-.user-details-box h3,
-.profile-box-left h3,
-.profile-box-right h3 {
+.user-details-box h3 {
   margin: 0;
   font-size: 20px;
   line-height: 1.2;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 .user-role-text {
   font-size: 14px;
   line-height: 1.4;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  font-weight: 400;
 }
 
 .dots {
@@ -796,15 +777,22 @@ body {
   margin-top: 2rem;
 }
 
-.dots span:nth-child(2) {
-  background-color: rgb(4 56 115);
+.dots div {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--clr-secondary-blue);
+}
+
+.dots .active {
+  background-color: var(--clr-primary-blue);
 }
 
 .try-card {
   max-width: auto;
   margin: 0 auto;
   text-align: center;
-  color: #fff;
+  color: var(--clr-light);
   padding: 4rem 1rem;
 }
 
@@ -938,7 +926,7 @@ body {
 
 .lower-box-1 a {
   text-decoration: none;
-  color: rgb(255 255 255);
+  color: var(--clr-light);
   font-size: 14px;
 }
 

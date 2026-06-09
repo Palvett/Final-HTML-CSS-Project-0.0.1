@@ -1,0 +1,670 @@
+@media screen and (min-width: 1920px) {
+  .container {
+    max-width: 1600px;
+  }
+
+  h1,
+  .work-text h1,
+  h2,
+  .project-text h2,
+  .together h2,
+  .extension-text h2,
+  .customise-text h2,
+  .plan h2,
+  .everywhere-content h2,
+  .data-text h2,
+  .sponsors h2,
+  .apps-content h2,
+  .testimonials h2 {
+    font-size: 72px !important;
+    line-height: 1.2 !important;
+  }
+
+  p,
+  .together p,
+  .extension-text p,
+  .customise-text p,
+  .plan p,
+  .everywhere-content p,
+  .data-text p,
+  .apps-content p,
+  .testimonial-text {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+  }
+
+  .container-work-grid,
+  .container-project-grid,
+  .circles-container,
+  .container-extension-grid,
+  .container-customise-grid,
+  .container-data-grid,
+  .apps-container {
+    gap: 6rem;
+  }
+
+  .box,
+  .box-1 {
+    max-width: 700px;
+    height: 480px;
+  }
+
+  .subscription-grid {
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 3rem;
+  }
+
+  .sponsors-card {
+    gap: 6rem;
+  }
+
+  .everywhere-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .try-card {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .mobile-break {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 2rem;
+  }
+
+  h1,
+  .work-text h1 {
+    font-size: 64px !important;
+    line-height: 1.2 !important;
+  }
+
+  h2,
+  .testimonials h2,
+  .apps-content h2,
+  .sponsors h2,
+  .data-text h2,
+  .everywhere-content h2,
+  .plan h2,
+  .customise-text h2,
+  .extension-text h2,
+  .together h2,
+  .project-text h2 {
+    font-size: 54px !important;
+    line-height: 1.2 !important;
+  }
+
+  p,
+  .testimonial-text,
+  .apps-content p,
+  .data-text p,
+  .everywhere-content p,
+  .plan p,
+  .customise-text p,
+  .extension-text p,
+  .together p,
+  .project-text p {
+    font-size: 18px !important;
+    line-height: 1.6 !important;
+  }
+
+  .container-work-grid,
+  .container-project-grid,
+  .circles-container,
+  .container-extension-grid,
+  .container-customise-grid,
+  .container-data-grid,
+  .apps-container {
+    gap: 3rem;
+  }
+
+  .box,
+  .box-1 {
+    max-width: 550px;
+    height: 380px;
+  }
+
+  .subscription-grid {
+    gap: 1.5rem;
+  }
+
+  .personal {
+    transform: scale(1.04);
+    padding: 3rem 2rem;
+  }
+
+  .funnycirc-project,
+  .funnycirc1 {
+    width: 300px;
+  }
+
+  .mobile-break {
+    display: none;
+  }
+}
+
+@media (max-width: 1152px) {
+  .container {
+    padding: 0 1.5rem;
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .site-header-nav .auth {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  h1,
+  .work-text h1,
+  section.work h1 {
+    font-size: 52px;
+    line-height: 1.2;
+  }
+
+  section h2,
+  .project-text h2,
+  .together h2,
+  .extension-text h2,
+  .customise-text h2,
+  .plan h2,
+  .everywhere-content h2,
+  .data-text h2,
+  .sponsors h2,
+  .apps-content h2,
+  .testimonials h2 {
+    font-size: 44px !important;
+    line-height: 1.2 !important;
+  }
+
+  section p,
+  .together p,
+  .extension-text p,
+  .customise-text p,
+  .plan p,
+  .everywhere-content p,
+  .data-text p,
+  .apps-content p,
+  .testimonial-text {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+  .container-work-grid,
+  .container-project-grid,
+  .circles-container,
+  .container-extension-grid,
+  .container-customise-grid,
+  .container-data-grid,
+  .apps-container {
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  .box,
+  .box-1 {
+    max-width: 100%;
+    height: 320px;
+  }
+
+  .personal {
+    transform: scale(1.1);
+    padding: 2.5rem 1.5rem;
+  }
+
+  .subscription-grid {
+    gap: 1rem;
+  }
+
+  .sponsors-card img {
+    max-width: 130px;
+  }
+
+  .funnycirc-project,
+  .funnycirc1 {
+    width: 250px;
+  }
+
+  .mobile-break {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+    width: 100%;
+  }
+
+  .menu,
+  .auth {
+    display: none !important;
+  }
+
+  .wavylines {
+    object-position: 10% 12%;
+    opacity: 0.6;
+    width: 100%;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .box,
+  .box-1,
+  .left-box,
+  .right-box {
+    width: 80%;
+    max-width: 80%;
+    height: 350px;
+    margin: 0 auto;
+  }
+
+  .container-work-grid,
+  .container-project-grid,
+  .container-extension-grid,
+  .container-customise-grid,
+  .apps-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .container-data-grid,
+  .circles-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .funnycirc-project,
+  .funnycirc1 {
+    display: none;
+  }
+
+  .circles-image,
+  .apps-image {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .subscription-grid,
+  .testimonials-container {
+    display: flex !important;
+    flex-direction: row !important;
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    gap: 1.5rem !important;
+    padding: 2rem 1rem !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .subscription-grid::-webkit-scrollbar,
+  .testimonials-container::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .subscription-card,
+  .card {
+    flex: 0 0 300px !important;
+    max-width: 300px !important;
+    scroll-snap-align: center !important;
+    box-sizing: border-box !important;
+  }
+
+  .personal {
+    padding: 2rem;
+    min-height: auto;
+  }
+
+  .everywhere-content {
+    text-align: center;
+  }
+
+  .sponsors-card {
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .try-card {
+    text-align: left;
+    padding-bottom: 2rem;
+  }
+
+  .icon-line {
+    justify-content: flex-start;
+  }
+
+  .upper-footer-box {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .whitepace-logo-text {
+    font-size: 40px;
+  }
+
+  .lower-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 100%;
+  }
+
+  .lower-box-1 {
+    width: 100%;
+  }
+
+  .lower-box-1 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .lower-box-2 {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 320px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 0 0.75rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .brand-logo-text {
+    font-size: 18px;
+  }
+
+  .menu,
+  .auth {
+    display: none !important;
+  }
+
+  .menu-btn {
+    display: block !important;
+  }
+
+  h1,
+  .work-text h1 {
+    font-size: 22px !important;
+    line-height: 1.2 !important;
+  }
+
+  h2,
+  .project-text h2,
+  .together h2,
+  .extension-text h2,
+  .customise-text h2,
+  .plan h2,
+  .everywhere-content h2,
+  .data-text h2,
+  .sponsors h2,
+  .apps h2,
+  .testimonials h2 {
+    font-size: 22px !important;
+    line-height: 1.2 !important;
+  }
+
+  p,
+  .quote-text p,
+  .project-text p,
+  .together p,
+  .extension-text p,
+  .customise-text p,
+  .plan p,
+  .everywhere-content p,
+  .data-text p,
+  .apps p,
+  .testimonial-text {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .box,
+  .box-1,
+  .left-box,
+  .right-box {
+    width: 85%;
+    max-width: 85%;
+    height: 200px;
+    margin: 1.5rem auto;
+  }
+
+  .circles-image,
+  .apps-image {
+    max-width: 240px;
+    width: 100%;
+    height: auto;
+  }
+
+  .apps-image-wrapper {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  .subscription-grid,
+  .testimonials-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-content: flex-start;
+  }
+
+  .subscription-grid::-webkit-scrollbar,
+  .testimonials-container::-webkit-scrollbar {
+    display: none !important;
+  }
+
+  .plan,
+  .everywhere.blue-bg {
+    padding: 1rem 0;
+  }
+
+  .slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .slider-dots span {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(79 156 249);
+  }
+
+  .slider-dots .active {
+    background: rgb(4 56 115);
+  }
+
+  .subscription-card,
+  .testimonials-card {
+    flex: 0 0 220px;
+    max-width: 220px;
+    height: auto !important;
+    scroll-snap-align: center !important;
+  }
+
+  .subscription-card.personal {
+    transform: none !important;
+    padding: 2rem !important;
+  }
+
+  .upper-footer-box {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 2.5rem !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .upper-footer-box div,
+  .upper-footer-box ul,
+  .upper-footer-box li {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .sponsors-card {
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .sponsors-card img {
+    max-width: 120px;
+    height: 40px;
+  }
+
+  .personal {
+    transform: scale(1) !important;
+    padding: 1.5rem 1rem !important;
+  }
+
+  .try-card {
+    padding: 2rem 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .try-card h2,
+  .try-card p,
+  .try-card button,
+  .try-card a {
+    text-align: center !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .whitepace-logo-text {
+    font-size: 24px;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+
+  .footer-logo-row {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px;
+    width: 100% !important;
+  }
+
+  .icon-line {
+    display: flex !important;
+    flex-flow: row nowrap !important;
+    justify-content: center !important;
+    gap: 20px;
+    width: 100% !important;
+    margin: 1rem auto !important;
+  }
+
+  .icon-line img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .lower-footer,
+  .lower-box-1 ul {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px;
+    text-align: center !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .lower-box-2 {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+
+  .funnycirc-project,
+  .funnycirc1 {
+    display: none;
+  }
+
+  .work,
+  .customise,
+  .sponsors,
+  .testimonials,
+  .extension .blue-bg {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .project,
+  .subscription {
+    margin-bottom: 2rem;
+  }
+}
